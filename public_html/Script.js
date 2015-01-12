@@ -7,6 +7,9 @@ $ ("document").ready(function(){
     $('p:first').css({'background-color':'cyan', 'color':'white'});
     $("h1").bind('mouseover',mouseOverMe).bind('mouseout',mouseOutMe); 
     $('h1').bind('click',mouseclick); 
+    $('#replaceWText').bind('click', replaceWText);
+    $('#randpara').bind('click', removeApara);
+    
 });
 
 function mouseOverMe(){
@@ -19,3 +22,7 @@ function mouseOutMe (){
 function mouseclick(){
     $('p').html('tryrteytryteytyeyetyteytrytrytrytrytr');
 }
+function replaceWtext(){
+    $('#replaceWText').'text'('replaced!');
+}
+ 
