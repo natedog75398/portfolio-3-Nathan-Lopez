@@ -47,4 +47,7 @@ function mouseOutMe(){
 function mouseClick(){
     $('p').html('bruh;MTGz is lifeeeee');
 }
-
+ function hidethepage(){
+    $)('#show').css('visibility','visible');
+    $
+ }
