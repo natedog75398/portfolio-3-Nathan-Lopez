@@ -49,5 +49,5 @@ function mouseClick(){
 }
  function hidethepage(){
     $)('#show').css('visibility','visible');
-    $
+    $('div').hide('slide')
  }
