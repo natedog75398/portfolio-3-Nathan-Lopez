@@ -11,8 +11,10 @@ $("document").ready(function(){
     $('div:last p:nth-child(4)').css('border-style','solid');
     $('div:last p:nth-child(5)').css('border-style','solid');
     
+    $('#superHumans').accordion({header: "h3"});
     
-   $('h1').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe)
+    
+   $('h1').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
     
     $("h1").bind('click', mouseClick);
     
@@ -48,6 +50,6 @@ function mouseClick(){
     $('p').html('bruh;MTGz is lifeeeee');
 }
  function hidethepage(){
-    $)('#show').css('visibility','visible');
+    $('#show').css('visibility','visible');
     $('div').hide('slide')
  }
