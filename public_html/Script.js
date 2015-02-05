@@ -1,6 +1,6 @@
 $("document").ready(function(){
     $('.yeah').css('background-color', 'blue');
-    
+    //doing well here
     $('div:last p:nth-child(3)').css('background-color','pink');
 
     $('div:last p:nth-child(4)').css('background-color','red');
@@ -13,18 +13,18 @@ $("document").ready(function(){
     
     $('#superHumans').accordion({header: "h3"});
     
-    
+    //all for my work
    $('h1').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
     
     $("h1").bind('click', mouseClick);
     
     $('#replcaementWText').bind('click', replaceWText);
-    
+    //for everything
     $('#randPara').bind('click', addAPara);
     
     $('#removepara').bind('click', removeAPara);
 });     
-
+    //most of the work
 function removeAPara(){
     $ ('#randPara p:last').remove();
 }
@@ -32,7 +32,7 @@ function removeAPara(){
 function addAPara(){
     $('randPara').append('<p>ADDED</p>');
 }
-
+// for paragrapsh
 function replaceWText(){
     $('#replaceWtext').text('replaced');
 }
